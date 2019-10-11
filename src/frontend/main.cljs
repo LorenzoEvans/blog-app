@@ -1,7 +1,9 @@
-(ns frontend.main)
+(ns frontend.main
+  (:require [reagent.core :as r]))
 
-(defn -main []
-  (set! (.-textContent (.getElementById js/document "target"))
-        "triumph"))
+(defn htmelement []
+  [:div {:class "hover-washed-green"} "yo"])
 
+(defn -main [] (r/render [htmelement] (.getElementById js/document "app")))
 (-main)
+

@@ -1,6 +1,7 @@
 
 {:source-paths ["src"]
- :dependencies [[herb "0.10.0"]]
+ :dependencies [[herb "0.10.0"]
+                [reagent "0.9.0-rc1"]]
  :builds {:backend {:target :node-script
                     :output-to "out/backend.js"
                     :main backend.server/main!}
