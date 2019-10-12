@@ -11,10 +11,11 @@
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
     <title>Blog</title>
     <link rel='stylesheet' href='https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css'/>
+    <link rel='stylesheet' href='styles.css' type=text/css/>
 
 </head>
 <body>
-        <div id='app' class='hover-bg-washed-blue'></div>
+        <div id='app'></div>
         <script src='/public/main.js'></script>
 </body>
 </html>")
