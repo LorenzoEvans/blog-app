@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "cljs",
+  "name": "blog-app",
   "builds": [
     { "src": "out/public/main.js", "use": "@now/static" },
     { "src": "out/backend.js", "use": "@now/node", "config": {
